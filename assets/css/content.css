@@ -1,0 +1,296 @@
+@charset "UTF-8";
+.content {
+  background: #f4f4f4;
+  height: 1000px;
+}
+.content .content_center {
+  width: 1190px;
+  margin: 0 auto;
+  height: 480px;
+}
+.content .content_center .content_center_top {
+  width: 100%;
+  height: 470px;
+  padding-top: 10px;
+}
+.content .content_center .content_center_top .content_center_left {
+  width: 190px;
+  height: 450px;
+  margin-right: 10px;
+  float: left;
+  background: #ffffff;
+  padding: 10px 0;
+  position: relative;
+}
+.content .content_center .content_center_top .content_center_left > li {
+  line-height: 25px;
+  height: 25px;
+  padding-left: 18px;
+  position: relative;
+}
+.content .content_center .content_center_top .content_center_left > li:hover {
+  background: #d9d9d9;
+}
+.content .content_center .content_center_top .content_center_left > li span {
+  padding: 0 2px;
+  font-size: 12px;
+}
+.content .content_center .content_center_top .content_center_left > li > a {
+  color: #333333;
+  font-size: 14px;
+}
+.content .content_center .content_center_top .content_center_left > li > a:hover {
+  color: #e1251b;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav {
+  width: 980px;
+  height: 460px;
+  background: #ffffff;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 20px;
+  top: -10px;
+  left: 190px;
+  z-index: 20;
+  box-shadow: 1px 0 3px 3px rgba(210, 210, 210, 0.4);
+  display: none;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 {
+  float: left;
+  width: 780px;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 > ul > li {
+  padding: 6px 0;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 > ul > li a {
+  color: #555555;
+  padding: 0 6px;
+  display: inline-block;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 > ul > li a:hover {
+  /* 为什么没有在每个li的a：first-child生效？？ */
+  color: #e1251b;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 > ul > li a:first-child {
+  padding-left: 15px;
+  width: 70px;
+  text-align: right;
+  color: #333;
+  font-weight: bolder;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 > ul > li a:first-child:hover {
+  /* 单独加上就生效？ */
+  color: #e1251b;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 > ul > li i {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 li:first-child i {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 li:first-child a:first-child {
+  padding-left: 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 li:first-child a {
+  background: #333333;
+  color: #ffffff;
+  padding: 0 10px;
+  margin: 0 5px;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav .content_nav_all0 li:first-child a:hover {
+  color: #ffffff;
+  background: #c81623;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav_all1 {
+  width: 180px;
+  height: 470px;
+  float: left;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav_all1 div:first-child {
+  width: 170px;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav_all1 div:first-child a {
+  width: 83px;
+  height: 35px;
+}
+.content .content_center .content_center_top .content_center_left > li .content_nav_all1 div:first-child a img {
+  width: 83px;
+  display: inline-block;
+}
+.content .content_center .content_center_top .content_center_left > li .left_nav_0 {
+  display: block;
+}
+.content .content_center .content_center_top .content_center_flash {
+  width: 790px;
+  height: 470px;
+  margin-right: 10px;
+  float: left;
+}
+.content .content_center .content_center_top .content_center_flash span {
+  color: #ffffff;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  line-height: 35px;
+  width: 25px;
+  height: 35px;
+  top: calc(50% - 15px);
+}
+.content .content_center .content_center_top .content_center_flash span:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.content .content_center .content_center_top .content_center_flash i {
+  width: 25px;
+  text-align: center;
+}
+.content .content_center .content_center_top .content_center_flash #flash_left {
+  width: 590px;
+  height: 470px;
+  overflow: hidden;
+  margin-right: 10px;
+  float: left;
+  position: relative;
+}
+.content .content_center .content_center_top .content_center_flash #flash_left #ul_1 {
+  width: 5000px;
+}
+.content .content_center .content_center_top .content_center_flash #flash_left #ul_1 li {
+  float: left;
+}
+.content .content_center .content_center_top .content_center_flash #flash_left #ul_1 li img {
+  display: block;
+}
+.content .content_center .content_center_top .content_center_flash #flash_left #left_1 {
+  -webkit-border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  left: 0;
+}
+.content .content_center .content_center_top .content_center_flash #flash_left #right_1 {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  right: 0;
+}
+.content .content_center .content_center_top .content_center_flash #flash_left #ul_2 li {
+  display: block;
+  float: left;
+  background: #999999;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.content .content_center .content_center_top .content_center_flash #flash_right {
+  width: 190px;
+  height: 470px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.content .content_center .content_center_top .content_center_flash #flash_right #left_2 {
+  -webkit-border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  left: 0;
+}
+.content .content_center .content_center_top .content_center_flash #flash_right #right_2 {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  right: 0;
+}
+.content .content_center .content_center_top .content_center_flash #flash_right .flash_right_all {
+  width: 1500px;
+}
+.content .content_center .content_center_top .content_center_flash #flash_right .flash_right_all div {
+  float: left;
+  width: 190px;
+}
+.content .content_center .content_center_top .content_center_flash #flash_right .flash_right_all div a {
+  height: 150px;
+  display: block;
+  margin-bottom: 10px;
+}
+.content .content_center .content_center_top .content_center_flash #flash_right .flash_right_all div a img {
+  width: 100%;
+  height: 100%;
+}
+.content .content_center .content_center_top .content_center_right {
+  float: left;
+  width: 190px;
+  height: 470px;
+  background: #ffffff;
+}
+.content .content_center .content_center_top .content_center_right .right_top {
+  height: 90px;
+  padding-top: 12px;
+}
+.content .content_center .content_center_top .content_center_right .right_top .dog_logo {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  float: left;
+  padding-left: 15px;
+}
+.content .content_center .content_center_top .content_center_right .right_top .dog_logo .img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.content .content_center .content_center_top .content_center_right .right_top .dog_logo .img img {
+  width: 40px;
+  height: 40px;
+}
+.content .content_center .content_center_top .content_center_right .right_top .dog_logo_r {
+  display: inline-block;
+  float: left;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+.content .content_center .content_center_top .content_center_right .right_top .dog_logo_r .dl_0 {
+  color: #333333;
+}
+.content .content_center .content_center_top .content_center_right .right_top .dog_logo_r a:hover {
+  color: #e1251b;
+}
+.content .content_center .content_center_top .content_center_right .right_top .plus {
+  width: 190px;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+}
+.content .content_center .content_center_top .content_center_right .right_top .plus a {
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  margin: 0 5px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 20px;
+}
+.content .content_center .content_center_top .content_center_right .right_top .plus a:first-child {
+  background: #e1251b;
+  color: #ffffff;
+}
+.content .content_center .content_center_top .content_center_right .right_top .plus a:last-child {
+  background: #363634;
+  color: #e5d790;
+}
+.content .content_center .content_center_top .content_center_right .right_top .plus a:hover {
+  color: #ffffff;
+  background: #c81623;
+}
+.content .content_center .content_center_top .content_center_right .right_top .plus_p {
+  background: linear-gradient(270deg, white, #eeeeee, #eeeeee, white);
+  width: 100%;
+  height: 1px;
+  float: left;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=content.css.map */

@@ -1,0 +1,365 @@
+.content {
+  background: rgb(244, 244, 244);
+  height: 1000px;
+
+  .content_center {
+    width: 1190px;
+    margin: 0 auto;
+    height: 480px;
+
+    .content_center_top {
+      width: 100%;
+      height: 470px;
+      padding-top: 10px;
+
+      .content_center_left {
+        width: 190px;
+        height: 450px;
+        margin-right: 10px;
+        float: left;
+        background: #ffffff;
+        padding: 10px 0;
+        position: relative;
+
+        & > li {
+          line-height: 25px;
+          height: 25px;
+          padding-left: 18px;
+          position: relative;
+
+          &:hover {
+            background: rgb(217, 217, 217);
+          }
+
+          span {
+            padding: 0 2px;
+            font-size: 12px;
+          }
+
+          & > a {
+            color: #333333;
+            font-size: 14px;
+
+            &:hover {
+              color: #e1251b;
+            }
+          }
+
+          .content_nav {
+            width: 980px;
+            height: 460px;
+            background: #ffffff;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 20px;
+            top: -10px;
+            left: 190px;
+            z-index: 20;
+            box-shadow: 1px 0 3px 3px rgba(210, 210, 210, .4);
+            display: none;
+
+
+            .content_nav_all0 {
+              float: left;
+              width: 780px;
+
+              & > ul > li {
+                padding: 6px 0;
+
+                a {
+                  color: #555555;
+                  padding: 0 6px;
+                  display: inline-block;
+
+                  &:hover { /* 为什么没有在每个li的a：first-child生效？？ */
+                    color: #e1251b;
+                  }
+                }
+
+                a:first-child {
+                  padding-left: 15px;
+                  width: 70px;
+                  text-align: right;
+                  color: #333;
+                  font-weight: bolder;
+
+                  &:hover { /* 单独加上就生效？ */
+                    color: #e1251b;
+                  }
+                }
+
+                i {
+                  padding-left: 10px;
+                  padding-right: 5px;
+                }
+              }
+
+              li:first-child {
+
+                i {
+                  padding-left: 10px;
+                  padding-right: 5px;
+                }
+
+                a:first-child {
+                  padding-left: 0;
+                  color: #ffffff;
+                  font-weight: 500;
+                  //width: 50px;
+                }
+
+                a {
+                  background: rgb(51, 51, 51);
+                  color: #ffffff;
+                  padding: 0 10px;
+                  margin: 0 5px;
+
+                  &:hover {
+                    color: #ffffff;
+                    background: #c81623;
+                  }
+                }
+              }
+            }
+          }
+
+          .content_nav_all1 {
+            width: 180px;
+            height: 470px;
+            float: left;
+
+            div:first-child {
+              width: 170px;
+
+              a {
+                width: 83px;
+                height: 35px;
+              }
+
+              a img {
+                width: 83px;
+                display: inline-block;
+              }
+            }
+
+          }
+
+          .left_nav_0 {
+            display: block;
+
+            .content_nav_0 {
+
+            }
+          }
+        }
+      }
+
+      .content_center_flash {
+        width: 790px;
+        height: 470px;
+        margin-right: 10px;
+        float: left;
+        //overflow: hidden;
+        span {
+          color: #ffffff;
+          font-size: 12px;
+          background: rgba(0, 0, 0, .15);
+          position: absolute;
+          line-height: 35px;
+          width: 25px;
+          height: 35px;
+          top: calc(50% - 15px);
+
+          &:hover {
+            background-color: rgba(0, 0, 0, .30);
+          }
+
+        }
+
+        i {
+          width: 25px;
+          text-align: center;
+        }
+
+        #flash_left {
+          width: 590px;
+          height: 470px;
+          overflow: hidden;
+          margin-right: 10px;
+          float: left;
+          position: relative;
+
+
+          #ul_1 {
+            width: 5000px;
+
+            li {
+              float: left;
+
+              img {
+                display: block;
+              }
+            }
+
+          }
+
+
+          #left_1 {
+            -webkit-border-top-right-radius: 30px;
+            -webkit-border-bottom-right-radius: 30px;
+            left: 0;
+          }
+
+          #right_1 {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            right: 0;
+          }
+
+          #ul_2 li {
+            display: block;
+            float: left;
+            background: #999999;
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            margin-right: 5px;
+          }
+        }
+
+        #flash_right {
+          width: 190px;
+          height: 470px;
+          float: left;
+          overflow: hidden;
+          position: relative;
+
+          #left_2 {
+            -webkit-border-top-right-radius: 30px;
+            -webkit-border-bottom-right-radius: 30px;
+            left: 0;
+          }
+
+          #right_2 {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            right: 0;
+          }
+
+          .flash_right_all {
+            width: 1500px;
+
+            div {
+              float: left;
+              width: 190px;
+
+              a {
+                height: 150px;
+                display: block;
+                margin-bottom: 10px;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .content_center_right {
+        float: left;
+        width: 190px;
+        height: 470px;
+        background: #ffffff;
+
+        .right_top {
+          height: 90px;
+          padding-top: 12px;
+
+          .dog_logo {
+            width: 44px;
+            height: 44px;
+            display: inline-block;
+            float: left;
+            padding-left: 15px;
+
+            .img {
+              display: inline-block;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              border: 2px solid #ffffff;
+              overflow: hidden;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+
+              img {
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+
+          .dog_logo_r {
+            //width: 120px;
+            display: inline-block;
+            float: left;
+            padding-left: 15px;
+            margin-top: 5px;
+
+            .dl_0 {
+              color: #333333;
+            }
+
+            a:hover {
+              color: #e1251b;
+            }
+          }
+
+          .plus {
+            width: 190px;
+            float: left;
+            text-align: center;
+            padding-top: 10px;
+
+            a {
+              display: inline-block;
+              width: 70px;
+              height: 25px;
+              margin: 0 5px;
+              line-height: 25px;
+              text-align: center;
+              border-radius: 20px;
+
+              &:first-child {
+                background: #e1251b;
+                color: #ffffff;
+              }
+
+              &:last-child {
+                background: #363634;
+                color: #e5d790;
+              }
+
+              &:hover {
+                color: #ffffff;
+                background: #c81623;
+              }
+
+            }
+          }
+
+          .plus_p {
+            background: linear-gradient(270deg, white, #eeeeee, #eeeeee, white);
+            width: 100%;
+            height: 1px;
+            float: left;
+            margin-top: 10px;
+          }
+
+        }
+      }
+    }
+  }
+}

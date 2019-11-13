@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding: 0;
+        }
+        #box{
+            position:absolute;
+            top:30px;
+            left: 0;
+            height:100px;
+            width:100px;
+            background:#000;
+        }
+        #box2{
+            position:absolute;
+            top:200px;
+            left: 0;
+            height:100px;
+            width:100px;
+            background:yellow;
+        }
+
+
+    </style>
+    <script type="text/javascript" src="js/tools.js"></script>
+    <script type="text/javascript">
+        window.onload=function(){
+            var bt=document.getElementById("bt");
+            var bt1=document.getElementById("bt1");
+            var bt2=document.getElementById("bt2");
+            var bt3=document.getElementById("bt3");
+            var box=document.getElementById("box");
+            var box2=document.getElementById("box2");
+            //var timer;
+            bt.onclick=function(){
+                move(box,10,800,"left");
+            };
+            bt1.onclick=function(){
+                move(box,10,0,"left");
+            };
+            bt2.onclick=function(){
+                move(box2,10,800,"left");
+            };
+            bt3.onclick=function(){
+                move(box2,10,800,"width",function(){
+                    move(box2,10,400,"height",function(){
+                        move(box2,10,100,"width",function(){
+                            move(box2,10,100,"height",function(){
+
+                            });
+                        });
+                    });
+                });
+            };
+
+        };
+
+    </script>
+</head>
+<body>
+<button id="bt">box右移</button>
+<button id="bt1">box左移</button>
+<button id="bt2">box2右移</button>
+<button id="bt3">测试</button>
+<div id="box"></div>
+<div id="box2"></div>
+
+</body>
+</html>
